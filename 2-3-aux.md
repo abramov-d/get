@@ -1,3 +1,4 @@
+```
 import RPi.GPIO as GPIO
 import time
 
@@ -13,4 +14,4 @@ GPIO.setup(aux, GPIO.IN)
 while a == 777:
     GPIO.output(leds, aux)
     #time.sleep(1)
-        
+``` 

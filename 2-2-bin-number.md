@@ -1,3 +1,4 @@
+```
 import RPi.GPIO as GPIO
 import time
 import random
@@ -23,3 +24,4 @@ time.sleep(10)
 GPIO.output(dac, 0)
 
 GPIO.cleanup()
+```

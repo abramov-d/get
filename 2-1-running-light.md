@@ -1,3 +1,4 @@
+```
 import RPi.GPIO as GPIO
 import time
 
@@ -17,3 +18,4 @@ for i in range(0, 3) :
         i = i + 1
 
 GPIO.cleanup()
+```
